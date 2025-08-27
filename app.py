@@ -171,7 +171,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # N8N Webhook Configuration
-N8N_WEBHOOK_URL = "https://agentonline-u29564.vm.elestio.app/webhook-test/ac88f088-256b-4167-9e6f-c22515b2e0ed"  # Replace with your actual webhook URL
+N8N_WEBHOOK_URL = "https://agentonline-u29564.vm.elestio.app/webhook/ac88f088-256b-4167-9e6f-c22515b2e0ed"  # Replace with your actual webhook URL
 
 def validate_email(email):
     pattern = r'^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$'
